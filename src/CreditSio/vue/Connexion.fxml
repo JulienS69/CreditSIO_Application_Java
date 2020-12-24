@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreditSio.Controller.Controller">
+   <children>
+      <Button fx:id="btnseconnecter" layoutX="318.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnconnexionok" text="Se connecter" textFill="#27ab4a" />
+      <Label fx:id="labelconnexion" layoutX="242.0" layoutY="76.0" text="Connexion" textFill="#d31111">
+         <font>
+            <Font name="Californian FB" size="24.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textfieldmdp" layoutX="221.0" layoutY="194.0" />
+      <TextField fx:id="textfieldidentifiant" layoutX="221.0" layoutY="143.0" />
+      <Label fx:id="labelidentifiant" layoutX="111.0" layoutY="145.0" text="Identifiant">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelmdp" layoutX="97.0" layoutY="193.0" text="Mot de passe">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnexit" layoutX="439.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnexit" text="Quitter l'application" />
+      <Label layoutX="240.0" layoutY="309.0" prefHeight="17.0" prefWidth="121.0" />
+   </children>
+</AnchorPane>

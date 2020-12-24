@@ -3,6 +3,13 @@ package CreditSio.modele;
 import CreditSio.metier.Client;
 import java.sql.*;
 import java.util.ArrayList;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.*;
+import java.util.Properties;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 /**
  * Classe ClientDAO.
@@ -13,7 +20,7 @@ import java.util.ArrayList;
  * @author B. Chataing.
  * created on 15/12/2020.
  * modified on 18/12/2020.
- * @see CreditSio.metier.Client
+ * @see Client
  */
 
 public class ClientDAO implements IDao {
@@ -76,7 +83,9 @@ public class ClientDAO implements IDao {
     /**
      * @return la collection de clients.
      */
-    public ArrayList<Client> findAll(){
+    public ArrayList<Client> findAll()
+    {
+
         return clients;
     }
 

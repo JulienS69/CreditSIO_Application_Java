@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * @author B. Chataing.
  * created on 15/12/2020.
  * modified on 18/12/2020.
- * @see CreditSio.metier.CompteCourant
+ * @see CompteCourant
  */
 public class CompteCourantDAO implements IDao {
     private Connection myConnection;

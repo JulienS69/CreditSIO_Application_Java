@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * @author B. Chataing.
  * created on 15/12/2020.
  * modified on 18/12/2020.
- * @see CreditSio.metier.CompteEpargne
+ * @see CompteEpargne
  */
 
 public class CompteEpargneDAO implements IDao{
