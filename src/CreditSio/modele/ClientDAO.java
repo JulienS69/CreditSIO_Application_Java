@@ -1,12 +1,15 @@
 package CreditSio.modele;
 
 import CreditSio.metier.Client;
+import CreditSio.metier.Compte;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
+import java.util.List;
 import java.util.Properties;
 import java.sql.Connection;
 import java.sql.DriverManager;

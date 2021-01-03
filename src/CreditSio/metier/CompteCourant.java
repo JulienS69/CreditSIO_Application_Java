@@ -24,6 +24,8 @@ public class CompteCourant extends Compte{
      * @param solde : de type double.
      * @param decouvertAutorise : de type double.
      */
+
+
     public CompteCourant(String numero, Client titulaire, double solde, double decouvertAutorise) {
         super(numero, titulaire, solde);
         this.decouvertAutorise = decouvertAutorise;

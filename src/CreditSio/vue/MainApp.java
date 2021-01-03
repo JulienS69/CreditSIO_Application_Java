@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class MainApp extends Application {
 
-
+    public static String idClient;
 
     @Override
     public void start(Stage primaryStage) throws Exception{

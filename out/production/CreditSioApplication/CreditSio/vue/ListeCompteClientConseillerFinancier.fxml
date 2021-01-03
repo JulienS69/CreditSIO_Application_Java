@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreditSio.Controller.ControllerListeCompteClientConseillerFinancier">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="12.0" layoutX="112.0" layoutY="14.0" prefHeight="36.0" prefWidth="377.0" text="Liste des Comptes" textAlignment="RIGHT" textOverrun="CLIP">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="reveniraumenu" layoutX="424.0" layoutY="330.0" mnemonicParsing="false" onAction="#actionreveniraumenu" prefHeight="36.0" prefWidth="152.0" text="Revenir au Menu" />
+        <TableView fx:id="tableview" layoutX="37.0" layoutY="69.0" onSort="#actiontableview" prefHeight="234.0" prefWidth="542.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Numéro du Client" />
+                <TableColumn prefWidth="75.0" text="Nom Titulaire" />
+                <TableColumn prefWidth="75.0" text="Type de Compte" />
+            </columns>
+        </TableView>
+        <ComboBox fx:id="combobox" layoutX="37.0" layoutY="20.0" onAction="#actioncombobox" prefWidth="150.0" />
+        <Button fx:id="btnexit" layoutX="-151.0" layoutY="-36.0" mnemonicParsing="false" onAction="#actionbtnexit" text="Quitter" />
+    </children>
+</AnchorPane>

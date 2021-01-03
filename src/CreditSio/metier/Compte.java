@@ -46,7 +46,7 @@ public abstract class Compte {
         this.numero = numero;
     }
 
-    protected Client getTitulaire() {
+    public Client getTitulaire() {
         return titulaire;
     }
 

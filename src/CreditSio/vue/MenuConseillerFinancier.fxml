@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="BouttonEspaceConnexion" onDragDetected="#actionBouttonEspaceConnexion" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreditSio.Controller.ControllerMenuConseillerFinancier">
+   <children>
+      <Button fx:id="boutonclient" layoutX="62.0" layoutY="44.0" mnemonicParsing="false" onAction="#actionboutonclient" prefHeight="25.0" prefWidth="162.0" text="Voir les clients" />
+      <Button fx:id="BoutonComptes" layoutX="387.0" layoutY="44.0" mnemonicParsing="false" onAction="#actionBoutonComptes" prefHeight="25.0" prefWidth="162.0" text="Afficher les Comptes" />
+      <Button fx:id="Modifierdesfichesclients" layoutX="62.0" layoutY="176.0" mnemonicParsing="false" onAction="#actionModifierdesfichesclients" prefHeight="25.0" prefWidth="162.0" text="Modifier Fiche Client" />
+      <Button layoutX="387.0" layoutY="176.0" mnemonicParsing="false" onAction="#actionmodifiercomptes" prefHeight="25.0" prefWidth="162.0" text=" Modifier des Comptes" />
+      <Button layoutX="57.0" layoutY="321.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="172.0" text="Revenir a l'espace Connexion" />
+      <Button fx:id="btnexit" layoutX="393.0" layoutY="321.0" mnemonicParsing="false" onAction="#actionbtnexit" prefHeight="25.0" prefWidth="162.0" text="Quitter l'application" />
+   </children>
+</AnchorPane>
